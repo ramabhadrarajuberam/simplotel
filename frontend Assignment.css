@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #f55b51;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+
+}
+
+.navbar1 {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: auto;
+}
+
+.list {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.imgstyle {
+    background-size: cover;
+    height: 58%;
+    width: 52%;
+}
+
+.sectionContainer {
+    display: flex;
+    background-image: linear-gradient(to right, #f8faa5, #f7bedd);
+}
+
+.sectionContainerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.paragraph {
+    margin-top: 35px;
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.btnstyle {
+    margin-top: 50px;
+    font-size: 19px;
+    color: white;
+    padding: 10px;
+
+    width: 150px;
+    background-color: #f55b51;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.artContainer {
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #f8faa5, #f7bedd);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    padding-bottom: 110px;
+    padding-top: 100px;
+}
+
+
+.imagestyle1 {
+    width: 70%;
+    height: 49%;
+    margin-bottom: 5px;
+
+}
+
+.imagestyle2 {
+    width: 40%;
+    height: 50%;
+    margin-right: 40px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer {
+    background-color: #f55b51;
+    margin-right: 40px;
+    width: 680px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.gridContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.rightContainerParagraph {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rightContainerHeading {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 27px;
+    font-weight: 900;
+    font-family: Roboto;
+}
+
+/*for Medium Screen (For Tablet)*/
+@media screen and (min-width:481px) and (max-width:768px) {
+    .navbar {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .list {
+        margin-left: 12px;
+        font-weight: bold;
+    }
+
+    .heading {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Roboto;
+    }
+
+    .sectionContainerText {
+        padding-top: 40px;
+        padding-left: 8px;
+    }
+
+    .paragraph {
+        margin-top: 15px;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .btnstyle {
+        margin-top: 20px;
+        font-size: 8px;
+        padding: 8px;
+        width: 90px;
+
+    }
+
+    .rightContainer {
+        margin-right: 40px;
+        width: 680px;
+        padding: 10px;
+        padding-left: 15px;
+    }
+
+    .rightContainerParagraph {
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    .rightContainerHeading {
+        padding-bottom: 9px;
+        padding-top: 9px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .imgstyle {
+        background-size: cover;
+        height: 45%;
+        width: 45%;
+    }
+
+    .rightContainerParagraph1 {
+        font-size: 12px;
+    }
+}
+
+/*for Small Screen (For Mobile)*/
+@media screen and (min-width:320px) and (max-width:480px) {
+    .navbar {
+        font-size: 8px;
+        padding: 7px;
+    }
+
+    .list {
+        margin-left: 9px;
+        font-weight: bold;
+    }
+
+    .heading {
+        font-size: 10px;
+        font-weight: bold;
+        font-family: Roboto;
+    }
+
+    .sectionContainerText {
+        padding-top: 20px;
+        padding-left: 8px;
+    }
+
+    .paragraph {
+        margin-top: 8px;
+        font-size: 6px;
+        margin-right: 10px;
+    }
+
+    .btnstyle {
+        margin-top: 20px;
+        font-size: 8px;
+        padding: 5px;
+        width: 80px;
+
+    }
+
+    .rightContainer {
+        margin-right: 40px;
+        width: 680px;
+        padding: 10px;
+        padding-left: 15px;
+    }
+
+    .rightContainerParagraph {
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    .rightContainerHeading {
+        padding-bottom: 9px;
+        padding-top: 9px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .imgstyle {
+        background-size: cover;
+        height: 45%;
+        width: 45%;
+    }
+
+    .rightContainerParagraph1 {
+        font-size: 12px;
+    }
+
+    .artContainer {
+        margin-top: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .rightContainer {
+        background-color: #f55b51;
+        margin-right: 40px;
+        width: 600px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+
+    .rightContainerParagraph {
+        font-size: 5px;
+        font-weight: 600;
+    }
+
+    .rightContainerHeading {
+        padding-bottom: 4px;
+        padding-top: 4px;
+        font-size: 8px;
+        font-weight: 900;
+        font-family: Roboto;
+    }
+
+    .rightContainerParagraph1 {
+        font-size: 6px;
+    }
+
+
+
+
+
+}
